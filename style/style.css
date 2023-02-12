@@ -57,7 +57,7 @@
 .battery_level-background{
     height: 210px;
     width: 40px;
-    border-radius: 21px;
+    border-radius: 0 0 21px 21px;
     background: linear-gradient(180deg, #14FF00 0%, #FDFF00 47.71%, #FF0000 100%);
 }
 
