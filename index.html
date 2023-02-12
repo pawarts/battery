@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="battery_info-wrapper">
+      <div class="battery_title">
+        <p class="battery_percent" id="output_level">10%</p>
+        <div class="battery_status">
+          <p class="battery_status-title">Статус:</p>
+          <p class="battery_status-info" id="output_charge">Заряджання</p>
+        </div>
+        <div class="battery_status">
+          <p class="battery_status-title">Час до зарядки:</p>
+          <p class="battery_status-info" id="output_time">1 год.  52 хв.</p>
+        </div>
+      </div>
+      <div class="battery_level-wrapper">
+        <div class="battery_level-background"></div>
+        <div class="battery_level-status wave" id="battery_status"></div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script/battery.js"></script>
+<script src="script/notif.js"></script>
+</html>
